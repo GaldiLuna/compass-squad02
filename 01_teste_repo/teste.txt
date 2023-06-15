@@ -1,1 +1,2 @@
+Hello world Git!
 Testando comandos no terminal.
