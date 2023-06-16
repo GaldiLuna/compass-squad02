@@ -1,0 +1,35 @@
+git branch - comando para visualizar os branches disponíveis
+
+git branch <nome> - comando para criar uma nova branch colocando o nome no lugar de <nome>
+
+git branch -d <nome> ou --delete <nome> - comando para apagar uma branch criada errada ou por engano (fora isso normalmente as branches são mantidas)
+
+git checkout <nome> - comando para mudar a branch que está usando atualmente (cuidado para dar commit e push antes de mudar de branch)
+
+git checkout -b <nome> - comando para criar uma nova branch e já mudar para ela (cuidado para dar commit e push antes de mudar de branch)
+
+git merge <nome> - comando para unir duas branches diferentes, para fazer isso você deve estar na branch main e dar o comando citando o nome da branch secundária que deseja unir com a main
+
+git stash - comando para criar uma stash e "limpar" os códigos dentro de uma branch secundária e deixar os códigos numa "lixeira"
+
+git stash list - comando para listar as stashs criadas 
+
+git stash apply <número> - para recuperar os códigos de volta de onde foram removidos (recuperar a stash criada)
+
+git stash show -p <número> - comando para mostrar o que cada stash armazenou (versões de modificações do código)
+
+git stash clear - limpa totalmente a lista de stashs criadas na branch
+
+git stash drop <número> - deleta uma stash específica dentro da branch
+
+git tag -a <nome> -m "mensagem" - comando similar ao stash, só que ao invés de apagar, a tag salva versões do código referenciadas pelo nome atribuído
+
+git tag - lista as tags que foram criadas
+
+git show <nome> - verifica a tag pelo nome atribuído
+
+git checkout <nome> - comando para alterar de tag dentro da branch
+
+git push origin <nome> - comando para enviar uma tag específica para o repositório remoto
+
+git push origin --tags - comando para enviar todas as tags para o repositório remoto
