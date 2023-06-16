@@ -1,0 +1,29 @@
+git init => usado para iniciar um repositório main vazio na pasta criada
+
+git status => usado para saber o status atual do repositório, se tem algum arquivo novo, modificado, etc
+
+git add "nome do arquivo" => usado para adicionar um arquivo novo ao status de pronto para commit
+git add . => usado para adicionar múltiplos novos arquivos para ficarem prontos para o commit
+
+git commit "nome do arquivo" => usado para commitar um arquivo específico para o repositório remoto
+git commit -a => usado para commitar todos os arquivos prontos para o repositório remoto
+git commit -m => usado para deixar uma mensagem usando " " e enviar junto com o arquivo commitado para o repositório
+
+git push => usado para finalizar/confirmar o envido dos arquivos dados pelo commit para o repositório
+
+git pull => usado para receber um novo arquivo adicionado no repositório remoto ou também uma atulização de um arquivo existente
+
+git clone https:// . => usado para clonar um repositório que você irá iniciar colaboração
+
+git rm "nome do arquivo" => usado para deletar um arquivo do repositório local, para confirmar precisa dar o git commit e o git push depois
+
+git log => usado para recer um log de todos updates dados no repositório (ctrl+c para fechar o log no Linux e ctrl+q para fechar o lo no windows)
+
+git mv "nome arqiuvi" "nome arquivo" => usado para renomear e/ou mover um arquivo com nome errado ou criado na pasta errada, para confirmar precisa dar o git commit e o git push depois
+
+git checkout "nome do arquivo" => usado para retornar o arquivo modificado local para o estado original que está no repositório remoto
+
+.gitignore => arquivo criado para adicionar parâmetros (documentos) que serão ignorados pelo Git nas suas alterações/atualizações/status para commit e push
+
+git reset --hard origin/main => desfaz os commits dados no repositório local que ainda não foram dados o push, deixando o repositório local igual ao status atual do repositório remoto no Github
+
