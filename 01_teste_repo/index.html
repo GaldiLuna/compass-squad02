@@ -1,12 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Fórmulário universal para cadastro, Fórmulário tradicional de cadastro, Exemplo de formulário de cadastro">
+  <meta http-equiv="content-language" content="pt-br">
+  <meta http-equiv="refresh" content="300">
+  <meta name="author" content="Frederico - GaldiLuna">
+
+  <link rel="stylesheet" href="estilo.css"> <!-- em construção -->
+
+  <title>Cadastre-se!</title>
+
 </head>
+
 <body>
-    
+
+  <a href="index.html">| Home |</a> <!-- em construção -->
+  <a href="https://google.com.br/" target="_blank"> Busca |</a>
+  <a href="https://wa.me/5582991113658/" target="_blank"> WhatsApp |</a>
+  <a href="mailto:fredericolluna@gmail.com" target="_blank"> E-mail |</a>
+  <a href="https://www.linkedin.com/in/frederico-luna-38790132/" target="_blank"> LinkedIN |</a>
+  <a href="https://github.com/GaldiLuna" target="_blank"> GitHub |</a>
+  <a href="http://lattes.cnpq.br/9650996043507120" target="_blank"> Lattes |</a><br><br>
+
+  <h1>FORMULÁRIO DE CADASTRO</h1>
+
+  <p>Formulário criado com o intuito de servir como modelo para implementação em sites diversos e ajudar desenvolvedores
+    com algumas opções básicas.</p>
+
+  <h3>Área de Login:</h3>
+
+  <form>
+
+    Usuário: <br>
+    <input type="text" name="usuário"><br>
+
+    Senha: <br>
+    <input type="password" name="senha"><br><br>
+
+    <input type="submit" value="Entrar">
+
+  </form><br>
+
+  <hr>
+
+  <h3>Cadastre-se:</h3>
+
+  <form>
+    Nome Completo: <br>
+    <input type="text" name="nome"><br>
+    Login: <br>
+    <input type="text" name="login"><br>
+    Insira seu E-mail: <br>
+    <input type="text" name="email"><br>
+    Confirme seu E-mail: <br>
+    <input type="text" name="confirmarEmail"><br>
+    Crie sua senha: <br>
+    <input type="password" name="senha"><br>
+    Confirme sua senha: <br>
+    <input type="password" name="confirmarSenha"><br><br>
+
+    Sexo: <br>
+    <input type="radio" name="sexo" value="M"> Masculino <br>
+    <input type="radio" name="sexo" value="F"> Feminino <br>
+    <input type="radio" name="sexo" value="Not"> Não Informado <br><br>
+
+    Escolaridade: <br>
+    <input type="radio" name="nível" value="Fundamental"> Fundamental <br>
+    <input type="radio" name="nível" value="Esnino Médio"> Ensino Médio <br>
+    <input type="radio" name="nível" value="Superior"> Superior <br>
+    <input type="radio" name="nível" value="Pós Graduação"> Pós Graduação <br>
+    <input type="radio" name="nível" value="Mestrado"> Mestrado <br>
+    <input type="radio" name="nível" value="Doutorado"> Doutorado <br>
+    <input type="radio" name="nível" value="PHD"> PHD <br><br>
+
+    Interesses: <br>
+    <input type="checkbox" name="interesses"> Programação <br>
+    <input type="checkbox" name="interesses"> Livros <br>
+    <input type="checkbox" name="interesses"> Esportes <br>
+    <input type="checkbox" name="interesses"> Cursos <br>
+    <input type="checkbox" name="interesses"> Jogos <br>
+    <input type="checkbox" name="interesses"> Receitas <br>
+    <input type="checkbox" name="interesses"> Moda <br>
+    <input type="checkbox" name="interesses"> Músicas <br>
+    <input type="checkbox" name="interesses"> Viagens <br>
+    <input type="checkbox" name="interesses"> Animações <br>
+    <input type="checkbox" name="interesses"> Tecnologia <br>
+    <input type="checkbox" name="interesses"> Investimentos <br><br>
+
+    Telefone com DDD: <br>
+    <input type="number" name="telefone"><br>
+    Celular/WhatsApp com DDD: <br>
+    <input type="number" name="celular"><br>
+
+    Endereço: <br>
+    <input type="text" name="endereço"><br>
+    CEP: <br>
+    <input type="number" name="cep"><br>
+
+    Estado: <br>
+    <select name="Estado">
+      <option value="-">-</option>
+      <option value="AC">AC</option>
+      <option value="AL">AL</option>
+      <option value="AM">AM</option>
+      <option value="AP">AP</option>
+      <option value="BA">BA</option>
+      <option value="CE">CE</option>
+      <option value="DF">DF</option>
+      <option value="ES">ES</option>
+      <option value="GO">GO</option>
+      <option value="MA">MA</option>
+      <option value="MG">MG</option>
+      <option value="MS">MS</option>
+      <option value="MT">MT</option>
+      <option value="PA">PA</option>
+      <option value="PB">PB</option>
+      <option value="PE">PE</option>
+      <option value="PI">PI</option>
+      <option value="PR">PR</option>
+      <option value="RJ">RJ</option>
+      <option value="RN">RN</option>
+      <option value="RO">RO</option>
+      <option value="RR">RR</option>
+      <option value="RS">RS</option>
+      <option value="SC">SC</option>
+      <option value="SE">SE</option>
+      <option value="SP">SP</option>
+      <option value="TO">TO</option>
+    </select> <br>
+
+    Cidade: <br>
+    <input type="text" name=""><br>
+
+    Observações: <br>
+    <textarea></textarea><br>
+
+    <input type="checkbox" name="ciente">Estou ciente sobre o armazenamento meus dados e a LGPD. <br>
+    <input type="checkbox" name="aceitar">Aceito receber notícias e ofertas dos parceiros. <br><br>
+
+    <input type="submit" value="Cadastrar">
+
+  </form>
+
+  <script src="https://plugin.handtalk.me/web/latest/handtalk.min.js"></script>
+  <script>
+    var ht = new HT({
+      avatar: "MAYA",
+      token: "fbe4cc491ada28663da7fa1a52b2a8a3"
+    });
+  </script>
 </body>
+
 </html>
