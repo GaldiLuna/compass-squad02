@@ -30,6 +30,7 @@ git show <nome> - verifica a tag pelo nome atribuído
 
 git checkout <nome> - comando para alterar de tag dentro da branch
 
-git push origin <nome> - comando para enviar uma tag específica para o repositório remoto
+git push origin <nome> - comando para enviar uma tag específica para o repositório remoto sem a necessidade de enviar o branch inteiro
 
-git push origin --tags - comando para enviar todas as tags para o repositório remoto
+git push origin --tags - comando para enviar todas as tags para o repositório remoto sem a necessidade de enviar o branch inteiro
+
