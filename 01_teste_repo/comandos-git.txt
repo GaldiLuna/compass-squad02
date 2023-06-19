@@ -23,7 +23,7 @@ git mv "nome arqiuvi" "nome arquivo" => usado para renomear e/ou mover um arquiv
 
 git checkout "nome do arquivo" => usado para retornar o arquivo modificado local para o estado original que está no repositório remoto
 
-.gitignore => arquivo criado para adicionar parâmetros (documentos) que serão ignorados pelo Git nas suas alterações/atualizações/status para commit e push
+.gitignore => arquivo criado para adicionar parâmetros (documentos e/ou pastas) que serão ignorados pelo Git nas suas alterações/atualizações/status para commit e push
 
 git reset --hard origin/main => desfaz os commits dados no repositório local que ainda não foram dados o push, deixando o repositório local igual ao status atual do repositório remoto no Github
 
