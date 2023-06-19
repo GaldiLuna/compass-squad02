@@ -34,3 +34,5 @@ git push origin <nome> - comando para enviar uma tag específica para o reposit�
 
 git push origin --tags - comando para enviar todas as tags para o repositório remoto sem a necessidade de enviar o branch inteiro
 
+git fetch - traz atualização de todos os branches e tags que ainda não são conhecidos por você, comando útil para utilizar branch ou tag de outro dev num projeto compartilhado com time
+

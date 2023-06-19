@@ -27,3 +27,9 @@ git checkout "nome do arquivo" => usado para retornar o arquivo modificado local
 
 git reset --hard origin/main => desfaz os commits dados no repositório local que ainda não foram dados o push, deixando o repositório local igual ao status atual do repositório remoto no Github
 
+git remote add origin <link> => usado para adicionar um repositório
+remoto ao repositório local
+
+git diff => usado para exibir a diferença entre branches
+git diff <arquivo> <arquivo_mod> => usado para verificar a diferença entre arquivos commitados
+
