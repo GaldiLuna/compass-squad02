@@ -33,3 +33,5 @@ remoto ao repositório local
 git diff => usado para exibir a diferença entre branches
 git diff <arquivo> <arquivo_mod> => usado para verificar a diferença entre arquivos commitados
 
+git shortlog => comando usado para dar um resumo de tópicos das alterações e envios feitos no repositório
+
