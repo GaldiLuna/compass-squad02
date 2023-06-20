@@ -17,7 +17,8 @@ git clone https:// . => usado para clonar um repositório que você irá iniciar
 
 git rm "nome do arquivo" => usado para deletar um arquivo do repositório local, para confirmar precisa dar o git commit e o git push depois
 
-git log => usado para recer um log de todos updates dados no repositório (ctrl+c para fechar o log no Linux e ctrl+q para fechar o lo no windows)
+git log => usado para receber um log de todos updates dados no repositório (ctrl+c para fechar o log no Linux e ctrl+q para fechar o lo no windows)
+git reflog => usado para mapear os passos dados dentro do repositório, relatório mais completo que o comando "git log"
 
 git mv "nome arqiuvi" "nome arquivo" => usado para renomear e/ou mover um arquivo com nome errado ou criado na pasta errada, para confirmar precisa dar o git commit e o git push depois
 
