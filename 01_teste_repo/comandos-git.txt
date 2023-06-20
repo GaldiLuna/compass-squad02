@@ -38,3 +38,5 @@ git shortlog => comando usado para dar um resumo de tópicos das alterações e 
 
 git clean => comando para exlcuir arquivos do repositório local que ainda não foram adicionados e nem commitados
 
+git archive --format zip --output <nome_do_arquivo.zip> main => comando para criar uma cópia de arquivo zip do seu repositório remoto no PC
+
