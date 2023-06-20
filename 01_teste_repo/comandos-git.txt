@@ -35,3 +35,5 @@ git diff <arquivo> <arquivo_mod> => usado para verificar a diferença entre arqu
 
 git shortlog => comando usado para dar um resumo de tópicos das alterações e envios feitos no repositório
 
+git clean => comando para exlcuir arquivos do repositório local que ainda não foram adicionados e nem commitados
+
