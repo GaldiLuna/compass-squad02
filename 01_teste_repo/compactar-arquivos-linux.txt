@@ -1,0 +1,27 @@
+Usando o tar que é raiz do Linux:
+
+Para compactar arquivos no Linux utilizamos o comando tar com os parâmetros:
+c - criar o arquivo
+z - tipo do arquivo gzip
+v - mostra o progresso da compressão
+f - especificar o nome do arquivo compactado
+
+tar -czvf "compactado".tar.gz <arquivo ou diretório>
+
+Para compactar vários arquivos e/ou diretórios basta colocar os seus nomes separados por espaço.
+
+Para descompactar usamos:
+
+tar -xzvf "compactado".tar.gz
+onde o "x" é de extrair e as outras letras são as mesmas de compactar.
+
+Para verificar o conteúdo de um arquivo compactado tar.gz usamos o seguinte comando:
+tar -tvf "compactado".tar.gz
+(faltou a explicação do que significa a letra "t")
+
+----------------------------------------------------------
+Usando o zip para compartilhar com windows:
+
+Para compactar usamos: zip -r "compactar".zip <arquivo ou diretório>
+
+Para descompactar usamos: unzip "compactar".zip -d <local>
