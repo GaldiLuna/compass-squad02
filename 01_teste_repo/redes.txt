@@ -1,0 +1,38 @@
+DNS => domais name system, traduz o endereço de ip em um domínio, não precisamos gravar números de ip (o que seria mais difícil).
+    - uma pessoa digita um domínio no navegador;
+    - um servidor lê o dns digitado;
+    - encontra o servidor pela combinação de dns e ip;
+    -retorna ao usuário o site desejado;
+O usuário digita um site qualquer, o PC envia a requisição para o servidor DNS primário, o servidor primário envia a requisiçãopara o servidor root, que por sua vez envia devolve um caminho para outro servidor que pode ter a resposta, o primário envia a requisição para esse segundo servidor, que retorna o endereço do servidor que hospeda o site solicitado, então o primário faz a requisição para o servidor do site que retorna a confirmação e então o primário envia o site para o PC.
+
+Portas => é um endpoint, sempre está associada a um ip.
+    Exemplo de portas:
+        - 20 > FTP; (transferência de arquivos)
+        - 22 > SSH; (security shell - servidores do outro lado do mundo)
+        - 80 > HTTP; (conexão à internet normal)
+        - 443 > HTTPS; (conexão à internet com certificado de segurança)
+        - 25 > SMTP; (gerenciador de e-mail)
+
+TCP => transmission control protocol, protocolo utilizado para transmissão de dados pela rede, serviço mais lento porém mais seguro e organizado.
+    Utilizam o tcp:
+        - SMTP;
+        - FTP;
+        - HTTP;
+
+UDP => user datagram protocol, é um tipo de "irmão" do tcp e também serve para enviar dados, porém se preocupa apenas com a velocidade (foco) e não é confiável.
+    Utilizam o udp:
+        - jogos on-line;
+        - streaming;
+
+O comando ping é utilizado para verificar conexões tanto na internet como na rede, pode ser usado com sites, endereços de ip e/ou dns.
+
+O comando netstat é para saber o status da rede, quais as conexões estão ativas e funcionando (netstat -at para conexões tcp) ou (netstat -au para conexões udp) e (netstat -a para todas as conexões).
+
+O comando ifconfig é para ver e/ou mudar as configurações de rede do sistema.
+
+O comando nslookup é para saber os ips mais próximos através do dns.
+
+O comando tcpdump é para ver todas as conexões tcp que estão sendo transferidos da nossa máquina.
+
+O comando hostname -I é para saber o endereço ip de nossa máquina.
+
