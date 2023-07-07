@@ -7,7 +7,7 @@
 
 
 ## Learning:
-👨‍💻 #### Sprints 1:
+#### 👨‍💻 Sprints 1:
   * Git (comandos mais utilizados no bash)
   * Github (criação e organização do repositório)
   * Linux para Devs (comando mais utilizados por devs)
@@ -16,13 +16,13 @@
   * PHP (introdução)
   * Metodologias Ágeis
 
-👨‍💻 #### Sprints 2:
+#### 👨‍💻 Sprints 2:
   * SQL (para análise de dados - avançado)
   * Metodologias Ágeis
   * Segurança em Aplicações Web
   * Big Data
   
-👨‍💻 #### Sprints 3:
+#### 👨‍💻 Sprints 3:
   * (em desenvolvimento...)
   * Segurança em Aplicações Web
   * Python
