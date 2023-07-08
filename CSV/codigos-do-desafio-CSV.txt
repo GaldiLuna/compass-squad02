@@ -1,0 +1,41 @@
+CSV - Arquivo 01
+
+SELECT
+	l.cod AS CodLivro,
+	l.titulo AS Titulo,
+	a.codautor AS CodAutor,
+	a.nome AS NomeAutor,
+	l.valor AS Valor,
+	e.codeditora AS CodEditora,
+	e.nome AS NomeEditora
+	
+FROM 
+	livro l 
+JOIN 
+	autor a ON a.codAutor = l.autor 
+JOIN 
+	editora e ON e.codEditora  = l.editora  
+
+ORDER BY 
+	l.valor DESC 
+LIMIT 10;
+
+###################################################
+
+CSV - Arquivo 02
+
+SELECT
+    e.codEditora AS CodEditora,
+    e.nome AS NomeEditora,
+    COUNT(l.cod) AS QuantidadeLivros
+
+FROM
+    editora e
+JOIN
+    livro l ON e.codEditora = l.editora
+GROUP BY
+    e.codEditora,
+    e.nome
+ORDER BY
+    QuantidadeLivros DESC
+LIMIT 5;
