@@ -1,0 +1,8 @@
+Para criar a imagem:
+docker build -t mascarar-dados .
+
+Para iniciar o container:
+docker run -it mascarar-dados
+
+Quanto à reutilização de containers, é possível reiniciar containers parados em seu ambiente Docker. Para reiniciar um container parado, você pode usar o comando `docker start` seguido do ID ou nome do container. Por exemplo:
+docker start mascarar-dados
